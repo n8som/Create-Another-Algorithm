@@ -6,11 +6,12 @@ An important part of cybersecurity is controlling access to restricted content. 
 
 Parsing a file allows security analysts to read and update the contents. Python helps analysts develop algorithms to automate the process of parsing files and keeping them up-to-date.
 
-I'll develop an algorithm that parses this text file of IP addresses and updates the file by removing that addresses that no longer have access to the restricted content.
+I'll develop an algorithm that parses this text file of IP addresses and updates the file by removing the addresses that no longer have access to the restricted content.
 
 <h2>Scenario</h2>
 
-In this lab, I'm working as a security analyst and I'm responsible for developing an algorithm that parses a file containing IP addresses that are allowed to access restricted content and removes addresses that no longer have access.
+I am a security professional working at a healthcare company. As part of my job, I'm required to regularly update a file that identifies the employees who can access restricted content. The contents of the file are based on who is working with personal patient records. Employees are restricted access based on their IP address. There is an allow list of IP addresses permitted to sign into the restricted subnetwork. There's also a remove list that identifies which employees I must remove from this allow list.
+My task is to create an algorithm that uses Python code to check whether the allow list contains any IP addresses identified on the remove list. If so, I should remove those IP addresses from the file containing the allow list.
 
 <h2>Task 1</h2>
 
